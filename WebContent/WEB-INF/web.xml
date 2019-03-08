@@ -1,0 +1,23 @@
+<web-app>
+<servlet>
+
+    <servlet-name>CCC</servlet-name>
+
+    <servlet-class>com.dengxinxin.test.CCC</servlet-class>
+	
+    <load-on-startup>2</load-on-startup>
+</servlet>
+
+<servlet-mapping>
+
+    <servlet-name>CCC</servlet-name>
+
+    <url-pattern>/ccc</url-pattern>
+
+</servlet-mapping>
+
+
+
+
+
+</web-app>
